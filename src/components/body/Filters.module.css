@@ -1,0 +1,121 @@
+.main {
+  width: 300px;
+  height: 846px;
+  margin-top: 32px;
+  margin-left: 96px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.customizble {
+  width: 300px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+}
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border: 0.92px 0px 0px 0px;
+}
+.customizabletext {
+  width: 270px;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 8px;
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(37, 32, 32, 1);
+}
+.separator {
+  width: 300px;
+  height: 1px;
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+.filter {
+  width: 300px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.name {
+  width: 300px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nametext {
+  height: 22px;
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(37, 32, 32, 1);
+}
+.arrow {
+  rotate: 90 deg;
+}
+.all {
+  height: 22px;
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(37, 32, 32, 1);
+}
+.filtervalues {
+  width: 300p px;
+  height: 148 px;
+  margin-top: 24px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.filtervaluetext {
+  width: 300px;
+  height: 19px;
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: rgba(191, 200, 205, 1);
+}
+.filtervaluename {
+  width: 300 px;
+  height: 19px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.filtervalueinput {
+  width: 18px;
+  height: 18px;
+  border: 0.75px 0px 0px 0px;
+  border: 0.75px solid rgba(77, 77, 77, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.filtervaluespan {
+  width: 100px;
+  height: 19px;
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: rgba(37, 32, 32, 1);
+}
+
+@media only screen and (max-width: 380px) {
+  .main {
+    display: none;
+  }
+}

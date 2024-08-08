@@ -1,0 +1,94 @@
+.main {
+  width: 932px;
+  height: 2932px;
+  margin-top: 32px;
+  margin-left: 16px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 16px;
+  row-gap: 10px;
+}
+.filteredmain {
+  width: 1238px;
+  height: 2932px;
+  margin-top: 32px;
+  margin-left: 96px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 16px;
+  row-gap: 10px;
+}
+.productcard {
+  width: 300px;
+  height: 462px;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  width: 300px;
+  height: 397px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.details {
+  width: 300px;
+  height: 47px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.title {
+  width: 269px;
+  height: 22px;
+  font-stretch: condensed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(37, 32, 32, 1);
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.account {
+  width: 251px;
+  height: 17px;
+  font-stretch: condensed;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: rgba(136, 135, 146, 1);
+}
+
+@media only screen and (max-width: 380px) {
+  .main {
+    width: 344px;
+    height: 1, 489px;
+    padding: 16px 0px 24px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 8px;
+    row-gap: 125px;
+  }
+  .productcard {
+    width: 100px;
+    height: 362px;
+  }
+  .img {
+    width: 80px;
+    height: 197px;
+  }
+  .description {
+    width: 80px;
+  }
+  .title {
+    width: 60px;
+  }
+  .account {
+    display: none;
+  }
+}
